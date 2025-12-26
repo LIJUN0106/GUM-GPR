@@ -1,0 +1,28 @@
+Definitions of Column Titles,,,,,,,,,
+ss curve filename [.csv],"name of the file containing the stress-strain curve data, appended with "".csv""",,,,,,,,
+avg strain rate [1/s],"average strain rate corresponding to the stress-strain curve, in units 1/s, or strain/s",,,,,,,,
+starting heat treatment condition,heat treatment condition of the material prior to the test. See associated publication for further details,,,,,,,,
+Test Temperature [°C],initial temperature corresponding to the beginning of the mechanical test,,,,,,,,
+Test Temperature Uncertainty [°C],Estimated uncertainty in the test temperature,,,,,,,,
+Heating Time [s],heating time used to attain the test temperature,,,,,,,,
+Heating Time Profile Provided?,Y: heating history data are provided (temperature-time data); N: heating history data are not provided; n/a: not applicable,,,,,,,,
+Thermal measurement notes,Either no temperature measurement or temperature determined by an embedded k-type thermocouple,,,,,,,,
+ss curve filename [.csv],starting heat treatment condition,Test Temperature [°C],Test Temperature Uncertainty [°C],Avg. True Strain Rate [1/s],STD True Strainrate [1/s],Heating Time [s],Heating Time Profile Provided?,Thermal measurement notes,Post Heat-Treat Natural Aging Time
+5495_analyzed_unc,,20,5,5900,900,n/a,n/a,none, 5 min
+5501_analyzed_unc,,20,5,6000,1000,n/a,n/a,none,30 min
+5502_analyzed_unc,,20,5,6000,1000,n/a,n/a,none,40 min
+5503_analyzed_unc,,390,10,4000,2000,3.5,N,embedded k-type thermocouple,90 min
+5504_analyzed_unc,,300,10,4000,2000,0.5,N,embedded k-type thermocouple,225 min
+5505_analyzed_unc,,120,10,4000,2000,0.1,N,embedded k-type thermocouple,245 min
+5506_analyzed_unc,,20,5,5000,700,n/a,n/a,none,7 d
+5507_analyzed_unc,,20,5,6000,1000,n/a,n/a,none,"7 days, stored in freezer"
+5512_analyzed_unc,,20,5,1000,500,n/a,n/a,none,stored in freezer after HT
+5513_analyzed_unc,,20,5,1200,600,n/a,n/a,none,stored in freezer after HT
+5514_analyzed_unc,,20,5,5700,900,n/a,n/a,none,stored in freezer after HT
+5515_analyzed_unc,,20,5,5900,1000,n/a,n/a,none,stored in freezer after HT
+5516_analyzed_unc,,270,10,4000,2000,0.25,N,embedded k-type thermocouple,stored in freezer after HT
+5520_analyzed_unc,,20,5,1000,500,n/a,n/a,none,stored in freezer after HT
+5521_analyzed_unc,,400,10,1200,500,3.5,N,embedded k-type thermocouple,stored in freezer after HT
+5522_analyzed_unc,,400,10,1300,600,3.5,N,embedded k-type thermocouple,stored in freezer after HT
+5523_analyzed_unc,,190,10,4000,2000,0.2,N,embedded k-type thermocouple,stored in freezer after HT
+5525_analyzed_unc,,350,10,4000,2000,0.5,N,embedded k-type thermocouple,stored in freezer after HT
